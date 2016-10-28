@@ -1,0 +1,110 @@
+/*Red = #FFB4B0
+Blue = #4DD7FA
+Light yellow = #FEFAC0
+Dark yellow = #785616*/
+
+/*  class .  */
+/*  id #  */
+
+
+body {
+  margin: 50px 50px;
+}
+
+/*whole page container*/
+#main-container {
+  font-family: sans-serif;
+  /*width: 90%;*/
+  /*border: 2px solid black;*/
+  margin: 30px 40px;
+ }
+
+/*nav bar container*/
+#navbar {
+  background-color: #FFB4B0;
+  padding: 1px;
+  border: 2px solid black;
+  margin: 10px;
+ }
+
+nav li {
+  list-style-type: none;
+  display: inline-block;
+ }
+
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+
+/*blue left side container*/
+#options {
+  display: inline-block;
+  background-color: #4DD7FA;
+  width: 200px;
+  border: 2px solid black;
+  padding: 40px 30px;
+  height: 340px;
+  margin: 10px 10px;
+  font-size: 18px;
+}
+
+input[type=range] {
+  width: 180px;
+}
+
+/*styling for dropdown menus
+*/
+/*label {
+  padding: 20px;
+}
+*/
+#artistOption {
+  margin: 5px 0 5px 20px;
+ }
+
+#albumOption {
+  margin: 5px 0 5px 20px;
+  padding: 10px;
+ }
+
+select {
+  width: 80%;
+  padding: 10px;
+ }
+
+#GenreOption {
+  margin: 10px 10px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 5px 10px;
+}
+
+#button {
+  background-color: #808080;
+  padding: 12px 30px;
+  font-size: 20px;
+  margin: 5px 40px;
+}
+
+
+/*yellow right side container*/
+
+#songs {
+  display: block;
+  background-color: #FEFAC0;
+  height: 380px;
+  width: 65%;
+  border: 2px solid black;
+  padding: 20px;
+  float: right;
+  margin: 10px 10px;
+}
+
+

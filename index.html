@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Music History</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div id="main-container">
+
+      <div id="navbar">
+        <nav>
+          <ul>
+            <li><a href="#" id="link-home">Home</a></li>
+            <li> | </li>
+            <li><a href="#" id="link-add">Add Music</a></li>
+            <li> | </li>
+            <li><a href="#" id="link-list">List Music</a></li>
+          </ul>
+        </nav>
+      </div>
+
+  <section id="home-view">
+    Home
+  </section>
+
+  <section class="hidden" id="add-view">
+    Add
+  </section>
+
+  <section class="hidden" id="list-view">
+    List
+  </section>
+
+
+      <!-- div that includes blue & yellow boxes -->
+      <div id="content">
+          <div id="options">
+        <!-- song length range slider -->
+            <label>Song Length:</label>
+              <input type="range" name="Song Length" min="0" max="20">
+
+          <!-- artist select dropdown menu -->
+          <label for="artist">Artist:</label>
+            <select id="artistOption" name="Artist">
+              <option value="Borns">Borns</option>
+              <option value="Britney Spears">Britney Spears</option>
+              <option value="Shelters">Shelters</option>
+              <option value="Kings of Leon">Kings of Leon</option>
+            </select>
+
+
+          <!-- album select dropdown menu -->
+          <label for="album">Album:</label>
+            <select id="albumOption" name="Album">
+              <option value="Dopamine">Dopamine</option>
+              <option value="Make Me">Make Me</option>
+              <option value="Rebel Heart">Rebel Heart</option>
+              <option value="Walls">Walls</option>
+            </select>
+
+          <!-- genre checkboxes -->
+        <div id="GenreOption">
+          <table>
+            <thead>
+              <tr>
+                <th>Genre:</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><input type="checkbox" name="Rock" value="Rock">Rock</td>
+                <td><input type="checkbox" name="Pop" value="Pop">Pop</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" name="Blues" value="Blues">Blues</td>
+                <td><input type="checkbox" name="Classical" value="Classical">Classical</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" name="Jazz" value="Jazz">Jazz</td>
+                <td><input type="checkbox" name="Hip Hop" value="Hip Hop">Hip Hop</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- filter button -->
+      <input id="button" type="button" value="Filter">
+    </div>
+
+      <!-- yellow song section -->
+      <div id="songs">
+        <!-- <h2>Past Lives</h2>
+        <p>Borns | Dopamine | Alternative</p>
+
+        <h2>Make Me</h2>
+        <p>Britney Spears | Make Me | Pop</p>
+
+        <h2>Rebel Heart</h2>
+        <p>Shelters | Rebel Heart | Rock</p>
+
+        <h2>Waste A Moment</h2>
+        <p>Kings of Leon | Walls | Alternative</p> -->
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="songs.js"></script>
+</body>
+</html>
+
+
+
