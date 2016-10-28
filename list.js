@@ -6,7 +6,6 @@ var addView = document.getElementById("add-view");
 
 
 listLink.addEventListener("click", function(event) {
-  event.preventDefault();
   addView.classList.add("hidden");
 
   listView.classList.add("visible");
